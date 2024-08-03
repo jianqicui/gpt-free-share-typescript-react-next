@@ -32,7 +32,6 @@ export async function POST(req: Request) {
         Authorization: `Bearer ${apiKey}`
       },
       body: JSON.stringify(reqBodyJson),
-      // @ts-ignore
       duplex: 'half',
       redirect: 'manual',
       signal: controller.signal
