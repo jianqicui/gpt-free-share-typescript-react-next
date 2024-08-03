@@ -1,0 +1,11 @@
+@use 'sass:meta';
+
+body[data-theme='light'] {
+  @include meta.load-css('github-markdown-css/github-markdown-light');
+  @include meta.load-css('highlight.js/styles/a11y-light');
+}
+
+body[data-theme='dark'] {
+  @include meta.load-css('github-markdown-css/github-markdown-dark');
+  @include meta.load-css('highlight.js/styles/a11y-dark');
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: rgb(29, 147, 171);
+}
+
+::-webkit-scrollbar {
+  @apply h-[5px] w-[5px];
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-[20px] border-[1px] border-solid border-transparent bg-[#0000001A] bg-clip-content dark:bg-[#FFFFFF1A];
+}
