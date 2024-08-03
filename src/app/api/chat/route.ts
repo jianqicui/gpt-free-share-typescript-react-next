@@ -2,7 +2,7 @@ import serverConfig from '@/config/serverConfig'
 
 export async function POST(req: Request) {
   const controller = new AbortController()
-  const timeoutId = setTimeout(() => controller.abort(), 60000)
+  const timeoutId = setTimeout(() => controller.abort(), 600000)
 
   try {
     const reqJson = await req.json()
