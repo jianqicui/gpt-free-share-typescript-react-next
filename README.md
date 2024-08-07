@@ -2,25 +2,25 @@
 
 English / [简体中文](./README_CN.md)
 
-OpenAI API sharing solution, with ChatGPT 3.5 support.
+OpenAI API sharing solution, with ChatGPT support.
 
 ## Features
 
-- Self-hosted ChatGPT 3.5 GUI
+- Self-hosted ChatGPT GUI
 - Markdown support: LaTeX, code highlight, etc
 - Responsive design, light and dark mode
 - I18n: English, 简体中文
 
 ## Development
 
-1. Get OpenAI BASE URL and API Key
+1. Get OpenAI base URL, API Key and model
 2. Fill them into .env
 3. Run `npm install`
 4. Run `npm run dev`
 
 ## Deployment
 
-1. Get OpenAI BASE URL and API Key
+1. Get OpenAI base URL, API Key and model
 2. Fill them into .env
 3. Run `docker-compose up -d`
 
