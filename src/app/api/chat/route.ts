@@ -11,7 +11,7 @@ export async function POST(req: Request) {
 
     const baseUrl = serverConfig.baseUrl
     const apiKey = serverConfig.apiKey
-    const model = serverConfig.model    
+    const model = serverConfig.model
 
     const url = `${baseUrl}/v1/chat/completions`
 
