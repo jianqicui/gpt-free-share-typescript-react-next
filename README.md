@@ -37,6 +37,11 @@ OpenAI API sharing solution, with ChatGPT support.
 - [Highlight.js](https://highlightjs.org/)
 - [github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
 
+## Acknowledgements
+
+- https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web
+
 ## LICENSE
 
 [MIT](https://opensource.org/license/mit/)
+
