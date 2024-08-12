@@ -12,6 +12,7 @@ COPY postcss.config.mjs .
 COPY tailwind.config.ts .
 COPY tsconfig.json .
 
+RUN npm config set registry https://registry.npmmirror.com/
 RUN npm install
 RUN npm run build
 
