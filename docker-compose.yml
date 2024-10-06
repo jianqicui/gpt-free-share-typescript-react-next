@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   ui:
     container_name: gpt-free-share-typescript-react-next
